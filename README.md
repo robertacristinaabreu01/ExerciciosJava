@@ -8,8 +8,28 @@ download NetBeans: https://netbeans.org/downloads/old/8.2/
 <p> Exemplo de objeto: Caneta</p>
 
 
-<p>Classe caneta: Atributos -> Coisas que eu tenho? (modelo, cor, ponta, carga, tampada),
+<p>Classe (MOLDE DO OBJETO) caneta: Atributos -> Coisas que eu tenho? (modelo, cor, ponta, carga, tampada),
                   Métodos -> coisas que eu faço? (escreve, rabiscar, pintar,tampar,destampar) e
                   Estado -> como estou agora? (50% carga, ponta fina, azul, escrevendo e destampada) </p>
 
 
+Classe Caneta
+      modelo: caractere
+      cor: caractere
+      ponta:Real
+      carga:inteiro
+      tampada:lógico
+      
+Metodo rabiscar()
+    Se (tampada) entao
+      Escreva ("ERRO")
+    senao
+      Escreva("Rabisco")
+    FimSe 
+FimMetodo
+
+Metodo tampar()
+    tampada = verdadeiro
+FimMetodo
+
+fimClasse
